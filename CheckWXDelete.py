@@ -22,7 +22,7 @@ try:
             pass
         try:
             i.send('జ్ఞ ‌ా')#发送检测字符
-        except:
+        except: 
             pass
         time.sleep(2) #延时防频繁
     bot.file_helper.send('检测结束，请退出网页微信!')#通过文件传输助手发送检测结束
@@ -32,4 +32,4 @@ try:
 except KeyError:#这个错误是因为微信官方封禁了这个微信号登陆网页微信的接口
     print("该微信暂时不能登录网页微信！")
     input("检测失败，任意键退出...")
- 
+ #测试同步
