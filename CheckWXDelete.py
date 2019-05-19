@@ -3,7 +3,7 @@
 
 ' a test module'          #模块的文档注释
 
-_author_ = 'Wei Tang'     #变量的作者汤伟
+_author_ = 'Wei Tang'     #变量的作者汤伟1
 
 from wxpy import *
 
